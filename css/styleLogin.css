@@ -1,0 +1,148 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #DDDDDD;
+    font-family: 'Poppins', sans-serif;
+    min-width: 1900px !important;
+}
+
+header{
+    height: 100px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 700px;
+}
+
+#container_principal{
+    display: flex;
+    width: 820px;
+    background-color: aqua;
+    border-radius: 10px;
+    box-shadow: 8px 5px 8px #999292;
+}
+
+.frmdeLogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 380px;
+}
+
+.frmLogin{
+    background-color: #ffffff;
+    height: 550px;
+    width: 380px;
+    display: block;
+    padding-top: 65px;
+    padding-left: 68px;
+    color: #999393;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+label{
+    display: flex;
+}
+
+#lblEntrar{
+    font-size: 40px;
+    margin-bottom: 19px;
+    
+}
+
+#lblFraseBemVindo{
+    font-size: 18px;
+    width: 270px;
+    margin-bottom: 44px;
+}
+
+.input{
+    display: flex;
+    margin-bottom: 22px;
+}
+.input img{
+    margin-right: 18px;
+}
+
+.input label{
+    padding:0 0.2rem;
+    position: absolute;
+    left: 42rem;
+    background-color: white;
+    font-size: 15px;
+}
+
+.input #labelUsuario{
+    top: 410px;
+}
+
+.input #labelSenha{
+    top: 467px;
+}
+
+.input input{
+    border-radius: 0.5em;
+    outline: none;
+    padding: 8px;
+    padding-left: 12px;
+    border: solid 1px #000000;
+    box-shadow: 5px 5px 8px #C4C4C4;
+    height: 36px;
+    width: 220px;
+    font-size: 1rem;
+    font-weight: 600;
+    color:rgb(66, 65, 65);
+}
+
+#btnEntrar{
+    height: 35px;
+    width: 270px;
+    border-radius: 8px;
+    font-size: 20px;
+    border: 0px ;
+    color: white;
+    background-color: #ff0000;
+    margin-bottom: 18px;
+    margin-top: 54px;
+    /* outline: none; */
+}
+a{
+    text-decoration: none;
+    color: #ff0000;
+    font-size: 16px;
+    font-weight: 900;
+    margin-left: 165px;
+}
+
+.imgStack{
+    height: 550px;
+    width: 440px;
+    background-color: #ff0000;
+    /* padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px; */
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.imgLogo{
+    height: 80px;
+}
+.imgLogin{
+    height: 470px;
+}
+
+
+.imgLogo, .imgLogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

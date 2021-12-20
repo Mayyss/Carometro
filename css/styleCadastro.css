@@ -1,0 +1,142 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #DDDDDD;
+    font-family: 'Poppins', sans-serif;
+    min-width: 1900px !important;
+}
+
+header{
+    height: 100px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 700px;
+}
+
+#container_principal{
+    display: flex;
+    width: 820px;
+    border-radius: 10px;
+    box-shadow: 8px 5px 8px #999292;
+}
+
+.frmdeCadastro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 380px;
+}
+
+.frmCadastro{
+    background-color: #ffffff;
+    height: 550px;
+    width: 380px;
+    display: block;
+    padding-top: 55px;
+    padding-left: 58px;
+    color: #999393;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+label{
+    display: flex;
+}
+
+#lblCadastrar{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+#lblFraseCadastro{
+    font-size: 18px;
+    width: 270px;
+    margin-bottom: 24px;
+}
+
+.input{
+    display: flex;
+    margin-bottom: 15px;
+}
+.input img{
+    margin-right: 18px;
+    margin-top: 5px;
+}
+
+
+.input input{
+    border-radius: 0.5em;
+    outline: none;
+    padding: 8px;
+    padding-left: 12px;
+    border: solid 1px #000000;
+    box-shadow: 5px 5px 8px #C4C4C4;
+    height: 36px;
+    width: 220px;
+    font-size: 1rem;
+    font-weight: 600;
+    color:rgb(88, 87, 87);
+}
+
+.input input::placeholder{
+    color:rgb(144, 144, 144);
+    font-weight: normal;
+}
+
+#pwdConfirmarSenhaUsuario{
+    margin-left: 42px;
+}
+
+#btnCadastrar{
+    height: 35px;
+    width: 270px;
+    border-radius: 8px;
+    font-size: 20px;
+    border: 0px ;
+    color: white;
+    background-color: #ff0000;
+    margin-bottom: 18px;
+    margin-top: 30px;
+    /* outline: none; */
+}
+a{
+    text-decoration: none;
+    color: #ff0000;
+    font-size: 16px;
+    font-weight: 900;
+    margin-left: 165px;
+}
+
+.imgStack{
+    height: 550px;
+    width: 440px;
+    background-color: #ff0000;
+    /* padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px; */
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.imgLogo{
+    height: 80px;
+}
+.imgCadastro{
+    height: 470px;
+}
+
+
+.imgLogo, .imgCadastro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #DDDDDD;
+}
+
+header{
+    height: 200px;
+    background-image: url(../img/VectorCima.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main{
+    height: 520px;
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#container{
+    height: 720px;
+    width: 1000px;
+    background-color: white;
+    position: absolute;
+    margin-top: -100px;
+    border-radius: 5px;
+}
+
+.logo{
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    margin-right: 15px;
+}
+
+.logo label{
+    color:#999393;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.bemVinda{
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 150px;
+    color:#BEB6B6;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.botao{
+    height: 560px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btnTecCai{
+    height:200px;
+    width: 400px;
+    font-size: 50px;
+    font-weight: bold;
+    background-color: rgba(153, 147, 147, 0.35);
+    border:0px;
+    border-radius: 5px;
+}
+
+footer{
+    height:200px;
+    background-image: url(../img/Vector.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
